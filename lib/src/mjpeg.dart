@@ -54,7 +54,7 @@ class Mjpeg extends HookWidget {
     this.httpClient,
     this.isLive = false,
     this.width,
-    this.timeout = const Duration(seconds: 5),
+    this.timeout = const Duration(seconds: 30),
     this.height,
     this.fit,
     required this.stream,
